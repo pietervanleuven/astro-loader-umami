@@ -1,0 +1,41 @@
+{
+  "name": "astro-loader-umami",
+  "version": "0.1.0",
+  "description": "Astro content loader that loads page view counts from Umami at build time",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "astro",
+    "astro-loader",
+    "withastro",
+    "umami",
+    "analytics"
+  ],
+  "author": "Pieter Van Leuven",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietervanleuven/astro-loader-umami.git"
+  },
+  "homepage": "https://github.com/pietervanleuven/astro-loader-umami#readme",
+  "bugs": "https://github.com/pietervanleuven/astro-loader-umami/issues",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "peerDependencies": {
+    "astro": "^5.0.0"
+  }
+}
